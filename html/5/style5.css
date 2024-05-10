@@ -1,0 +1,254 @@
+body{
+    font-size: 100%;
+    background-image: url(background_table.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 1192px;
+    margin: 24px 30px 31px 22px;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+  
+}
+th{
+    text-transform: uppercase;
+        font-weight: 700;
+        font-family: "Arimo";
+        text-align: center;
+        
+}
+.cy{
+    font-size: 18px;
+        line-height: 28px;
+        width: 310px;
+            height: 156px;
+        color: #484848;
+            background-color: #fafafa;
+            
+}
+
+.Choose{
+    text-align: center;
+    font-size: 18px;
+    font-family: "Arimo";
+    color: #484848;
+    font-weight: bold;
+}
+
+.PRICING{
+    margin-top: 11px;
+    font-size: 30px;
+    font-family: "Arimo";
+    color: rgb(72, 72, 72);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.rt{
+        background-color: #fafafa;
+} 
+.STANDART{
+    font-size: 24px;
+        line-height: 28px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Arimo";
+        text-align: center;
+        width: 277px;
+            height: 70px;
+            background-color: #89c331;
+}
+.ULTIMATE{
+    font-size: 24px;
+        line-height: 28px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Arimo";
+        text-align: center;
+        width: 277px;
+            height: 70px;
+            background-color: #f04a56;
+}
+.PREMIUM{
+    font-size: 24px;
+        line-height: 28px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Arimo";
+        text-align: center;
+        width: 277px;
+            height: 70px;
+            background-color: #20807c;
+}
+.r-1{
+    font-size: 16px;
+        line-height: 28px;
+        text-transform: uppercase;
+        color: #484848;
+        font-weight: 400;
+        font-family: "Arimo";
+        text-align: center;
+        width: 310px;
+            height: 69px;
+            background-color: #f2f2f2;
+            
+            
+}
+
+.td-text-1{
+    font-size: 16px;
+        line-height: 28px;
+        text-transform: uppercase;
+        color: #484848;
+        font-weight: 400;
+        font-family: "Arimo";
+        text-align: center;
+        width: 320px;
+            height: 69px;
+            background-color: #fff;
+}
+.r-2{
+    font-size: 16px;
+        line-height: 28px;
+        text-transform: uppercase;
+        color: #484848;
+        font-weight: 400;
+        font-family: "Arimo";
+        text-align: center;
+        width: 310px;
+            height: 69px;
+            background-color: #e3e3e3;
+}
+  
+.b-1{
+    font-size: 16px;
+        line-height: 28px;
+        text-transform: uppercase;
+        color: #484848;
+        font-weight: 400;
+        font-family: "Arimo";
+        text-align: center;
+    width: 310px;
+        height: 69px;
+        background-color: #e3e3e3;
+}
+i{
+    margin-right: 5px;
+}
+.Contact-us-button {
+filter: drop-shadow(0 0 2.5px rgba(0,0,0,0.27));
+font-size: 16px;
+line-height: 28px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: "Arimo";
+text-align: center;
+width: 192px;
+height: 49px;
+border-radius: 5px;
+background-color: #484848;
+border: none;
+}
+table {
+  filter: drop-shadow(0 0 2.5px rgba(0,0,0,0.27));
+background-color: #dddddd;
+  margin-bottom: 1rem;
+}
+
+.BUY-NOW{
+    width: 192px;
+height: 49px;
+border-radius: 5px;
+background-color: #89c331;
+font-size: 16px;
+line-height: 28px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: "Arimo";
+text-align: center;
+border: none;
+}
+.BUY-NOW1{
+    width: 192px;
+        height: 49px;
+        border-radius: 5px;
+    background-color: #f04a56;
+    font-size: 16px;
+        line-height: 28px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Arimo";
+        text-align: center;
+        border: none;
+}
+.BUY-NOW2{
+    width: 192px;
+        height: 49px;
+        border-radius: 5px;
+    background-color: #20807c;
+    font-size: 16px;
+        line-height: 28px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Arimo";
+        text-align: center;
+        border: none;
+}
+.button-c{
+    align-items: center;
+        width: 307px;
+        height: 110px;
+        text-align: center;
+        background-color: #eeeeee;
+}
+.button-c button {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button-c button:hover {
+  background-color: #45a049; 
+}
+.Price{
+        font-size: 60px;
+        font-family: "Arimo";
+        color: rgb(72, 72, 72);
+        font-weight: bold;
+        text-transform: uppercase;
+}
+.Price1{
+        font-size: 24px;
+        font-family: "Arimo";
+        color: rgb(72, 72, 72);
+        font-weight: bold;
+        text-align: center;
+        position: relative; 
+        top: -20px; 
+        left: -20px; 
+}
+.MONTH{
+        font-size: 18px;
+        font-family: "Arimo";
+        color: #484848;
+        text-transform: uppercase;
+}

@@ -1,0 +1,229 @@
+body {
+    font-size: 100%;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto; /* Центрирование контейнера */
+  }
+  
+  .container {
+    width: 1070px; /* Ширина контейнера по вашему макету */
+    margin: 49px 150px 20px 150px;
+  }
+
+  .text-container{
+    font-family: 'Verdana', serif;
+    font-style: normal;
+    font-weight: 600;
+    position: relative;
+    text-decoration: none;
+}
+  
+  .header {
+    overflow: hidden; /* Добавление clearfix для флоатов */
+  }
+  
+  .logo-container {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .header-logo  {
+    display: block;
+    margin: 40px 0px;
+    width: 46px;
+    height: 44px;
+    float: left;
+    padding-left: 8px;
+    transition: opacity 200ms ease-in-out; /* Применяем эффект transition для плавного изменения прозрачности */
+  }
+
+
+  .header-logo-hover {
+    position: relative;
+    display: none; /* Скрываем изображение для состояния при наведении по умолчанию */
+    margin: 40px 0px;
+    width: 46px;
+    height: 44px;
+    float: left;
+    padding-left: 8px;
+    transition: opacity 200ms ease-in-out; /* Применяем эффект transition для плавного изменения прозрачности */
+  }
+  
+  .header-logo:hover + .header-logo-hover {
+    display: inline-block; /* Показываем изображение для состояния при наведении при наведении на .header-logo */
+  }
+  
+  .header-logo:hover {
+    position: absolute; /* Устанавливаем абсолютное позиционирование */
+  }
+
+  .logoh {
+    transition: color 200ms ease-in-out; /* Применяем эффект transition для изменения цвета текста */
+  }
+  
+  .logoh:hover {
+    color: #f26522; /* Устанавливаем желаемый цвет при наведении */
+  }
+  
+  .logo_left {
+    text-decoration: none;
+    float:left;
+    margin: 40px 0px;
+    float: left;
+  }
+  
+  .logo_right {
+    padding-right: 30px;
+    text-decoration: none;
+    float: right;
+    margin: 40px 0px;
+  }
+  
+  .logoh {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .logomilan {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .logoholidays {
+    margin: 0;
+    font-size: 18px;
+  }
+  .email{
+    padding-right: 55px;
+  }
+  .phone{
+    padding-left: 74px;
+  }
+  
+  .email, .phone {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .menu-link {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+  }
+
+  .menu-link p {
+    text-align: center;
+    margin-top: 5px; /* Расстояние между изображением и текстом */
+  }
+  
+  .menu-item {
+    display: block;
+    border: 1px solid #fff; /* Добавьте рамку или стилизацию, чтобы выделить изображение */
+  }
+  .image-container{
+    margin-right: 70px;
+  }
+  
+  .menu-label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7); /* Непрозрачный фон для текста */
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .copiright{
+    color:#ffffff;
+    text-align: center;
+    padding-top: 90px;
+    font-size: 12px;
+    font-family: "Verdana";
+}
+
+.thumb{
+  margin-top: 0px;
+  padding-top: 45px;
+}
+.thumb figcaption {
+    font-size: 18px;
+    font-family: "Verdana";
+  font-style: normal;
+}
+
+.thumb figure {
+  width: 307px;
+  height: 200px;
+  display: inline-block;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+}
+
+figcaption {
+  text-align: center;
+  position: relative;
+  color: #FFF;
+  width: 311px;
+  height: 60px;
+  bottom: 0px;
+  left: 0;
+  transition: .4s;
+}
+.figgi{
+  opacity: 0;
+  float: left;
+}
+.figgi_passiv{
+  text-decoration: none;
+  float: left;
+  margin-top: -40px;
+}
+.thumb p{
+  padding-top: 20px;
+}
+.thumb .right_vision{
+  float: right;
+  font-size: 10px;
+  margin-right: 20px;
+}
+.thumb .left1_vision{
+  float: left;
+  font-size: 7px;
+  margin-left: 20px;
+}
+.thumb .left2_vision{
+  float: left;
+  font-size: 15px;
+  margin-left: -20px;
+}
+figure:hover .figgi{
+  bottom: 60px;
+  background: #f26522;
+  opacity: 1;
+  transition: 400ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 400ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+figure a:hover{
+  color: #f26522;
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+figure{
+  padding: 13px;
+}
+

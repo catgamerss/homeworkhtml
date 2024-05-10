@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 100%;
+    font-family: Verdana, sans-serif;
+    background-image: url(Journey.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1280px;
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+    .journey {
+    padding-left: 80px;
+    font-size: 20px;
+    font-family: "Verdana";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 21px;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 54px;
+        background-color: rgba(0, 0, 0, 0.4); 
+      }
+      
+      .icons{
+        display: flex;
+        float: right;
+        justify-content: space-between;
+        align-items: center;
+        gap: 28px;
+      }
+
+      .line {
+        width: 1px;
+        height: 20px;
+        background-color: #302f2e;
+        margin: 0 23px; 
+    }
+    .log-in, .sign-up {
+        color: #3cb878; 
+        text-decoration: none;
+    }
+    .welcome, .or{
+        color: #fff; 
+        text-decoration: none;
+    }
+
+    .main{
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+    }
+
+    .registration-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #ffffff;
+        width: 444px; /* Ширина контейнера */   
+        height: 584px; /* Высота контейнера */
+        border-radius: 7px; /* Радиус скругления углов */
+        margin: 0 auto; /* Автоматическое выравнивание по горизонтали */
+      }
+
+      .green-square {
+        position: absolute;
+        left: 0;
+        margin-top: 29px;
+        width: 18px;
+        height: 18px;
+        background-color: #3cb878;
+        float: left;
+      }
+      .sign-up-text{
+        position: absolute;
+        font-size: 20px;
+        font-family: "Verdana";
+        color: rgb(67, 67, 67);
+        line-height: 21px;
+        left: 42px;
+        margin-top: 29px;
+        display: flex;
+      }
+      .log-in-text {
+        position:relative;
+        text-decoration: none;
+        display: block; /* Превращаем в блочный элемент */
+        margin-top: 29px;
+        font-size: 14px;
+        font-family: "Verdana";
+        color: rgb(60, 184, 120);
+        left: 138px;
+        }
+        
+    .social-buttons{
+      margin-top: 15px;
+    }
+
+    .facebook-button, .google-button {
+      width: 156px; /* задаем ширину кнопки */
+      height: 45px; /* задаем высоту кнопки */
+      display: inline-block; /* размещаем кнопки в строчном режиме */
+      margin-right: 8px; /* добавляем немного отступа между кнопками (при необходимости) */
+  }
+  .facebook-button{
+    background-color: #305db8;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    font-family: "Verdana";
+  }
+
+  .google-button{
+    background-color: #df4a32;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    font-family: "Verdana";
+    }
+
+  .google-button img, .facebook-button img {
+    vertical-align: middle; /* выравниваем изображение по вертикали */
+    margin-right: 35px; /* добавляем немного отступа между изображением и текстом */
+}
+h2{
+  margin-top: 33px;
+  margin-bottom: 33px;
+}
+/* Стили для поля ввода текста, когда оно в фокусе */
+input[type="text"]:focus {
+  border: 2px solid #007bff; /* пример стилизации рамки */
+  outline: none; /* убираем стандартное выделение */
+}
+
+/* Стили для чекбокса, когда он отмечен */
+input[type="checkbox"]:checked + label {
+  color: #007bff; /* пример стилизации текста рядом с чекбоксом */
+  font-weight: bold; /* пример изменения шрифта */
+}
+
+.create-account-button {
+  display: block;
+  margin: 30px auto 0; /* 30px сверху, авто по горизонтали */
+  background-color: #3cb878;
+  color: #ffffff;
+  width: 322px; /* Ширина кнопки */
+  height: 46px; /* Высота кнопки */
+  border: none; /* Удаление границы кнопки */
+  cursor: pointer; /* Установка курсора в виде указателя */
+  font-size: 16px;
+  font-family: "Verdana";
+}
+
+.form-group {
+  margin-bottom: 19px; /* Отступ между каждым полем формы */
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+  width: 100%; /* Ширина полей формы на 100% от родительского контейнера */
+  padding: 10px; /* Внутренний отступ */
+  border: 1px solid #ccc; /* Граница полей */
+  border-radius: 5px; /* Скругление углов */
+  box-sizing: border-box; /* Учитываем границу внутри размера */
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group input[type="password"]:focus {
+  outline: none; /* Убираем обводку при фокусе */
+  border-color: #007bff; /* Цвет границы при фокусе */
+}
+
+.form-group input[type="submit"] {
+  width: 100%; /* Ширина кнопки "Отправить" на 100% от родительского контейнера */
+  padding: 10px; /* Внутренний отступ */
+  background-color: #007bff; /* Цвет фона */
+  color: #fff; /* Цвет текста */
+  border: none; /* Убираем границу */
+  border-radius: 5px; /* Скругление углов */
+  cursor: pointer; /* Изменение курсора при наведении */
+}
